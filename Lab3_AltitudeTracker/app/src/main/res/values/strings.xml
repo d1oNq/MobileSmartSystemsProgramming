@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab3_AltitudeTracker</string>
+
+    <string name="status_connecting">Статус: Підключення...</string>
+    <string name="title_current_altitude">Поточна висота (GPS + Барометр)</string>
+    <string name="default_altitude">0.0 м</string>
+    <string name="title_cloud_stats">Хмарна статистика:\nЗавантаження...</string>
+
+    <string name="hint_interval">Інтервал вимірювання (сек)</string>
+
+    <string name="btn_set">Задати</string>
+    <string name="btn_start_tracking">Почати трекінг</string>
+    <string name="btn_stop_tracking">Зупинити трекінг</string>
+    <string name="btn_export_csv">Експорт в CSV</string>
+    <string name="btn_view_history">Переглянути історію</string>
+    <string name="text_simulation_mode">Режим симуляції (Емулятор)</string>
+
+    <string name="warning_no_barometer">Барометр не знайдено. Увімкнено автосимуляцію.</string>
+    <string name="warning_emulator">Емулятор: увімкнено симуляцію висоти.</string>
+    <string name="warning_manual_simulation">Увімкнено ручну симуляцію.</string>
+</resources>
