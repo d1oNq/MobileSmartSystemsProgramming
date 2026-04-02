@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Lab6_CO2CloudMonitor</string>
+
+    <string name="title_co2_level">Рівень CO₂ в приміщенні</string>
+    <string name="default_co2_value">400 ppm</string>
+    <string name="default_air_quality">Свіже повітря</string>
+    <string name="btn_start_record">Почати запис в БД</string>
+    <string name="btn_stop_record">Зупинити запис</string>
+
+    <string name="title_measurement_history">Історія вимірювань</string>
+    <string name="filter_1_hour">1 Год</string>
+    <string name="filter_1_day">День</string>
+    <string name="filter_1_week">Тиждень</string>
+    <string name="btn_view_text_history">Переглянути текстову історію</string>
+
+    <string name="stats_loading">Завантаження статистики...</string>
+    <string name="hint_record_interval">Інтервал запису (сек)</string>
+    <string name="btn_set_interval">Задати інтервал</string>
+    <string name="btn_export_csv">Експорт в CSV</string>
+    <string name="btn_clear_db">Очистити базу даних</string>
+
+    <string name="nav_sensor">Сенсор</string>
+    <string name="nav_chart">Графік</string>
+    <string name="nav_stats">Статистика</string>
+
+    <string name="title_login">CO₂ Cloud Monitor</string>
+    <string name="subtitle_login">Увійдіть, щоб синхронізувати дані</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="btn_login">Увійти</string>
+    <string name="btn_register">Зареєструватися</string>
+
+    <string name="toast_enter_credentials">Введіть email та пароль</string>
+    <string name="toast_login_error">Помилка входу: %1$s</string>
+    <string name="toast_register_validation">Введіть email та пароль (мінімум 6 символів)</string>
+    <string name="toast_register_success">Реєстрація успішна!</string>
+    <string name="toast_register_error">Помилка реєстрації: %1$s</string>
+    <string name="btn_logout">Вийти з акаунта</string>
+
+    <string name="error_empty_field">Це поле обов\'язкове</string>
+    <string name="error_short_password">Мінімум 6 символів</string>
+    <string name="error_invalid_email">Некоректний email</string>
+    <string name="text_no_account">Ще немає акаунта?</string>
+    <string name="btn_register_text">Створити зараз</string>
+</resources>
