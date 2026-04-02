@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab2_WindSensor</string>
+
+    <string name="text_simulation_mode">Режим симуляції (без плати)</string>
+
+    <string name="btn_connect">Підключитися до ESP32</string>
+    <string name="btn_disconnect">Відключитися</string>
+    <string name="btn_change">Змінити</string>
+
+    <string name="title_sensor_data">Показники сенсора</string>
+    <string name="title_graph">Візуалізація швидкості вітру</string>
+
+    <string name="text_waiting_data">Очікування даних...</string>
+    <string name="text_analysis_default">Аналіз:\nМін: 0 | Макс: 0 | Сер: 0\nТренд: -</string>
+
+    <string name="hint_interval">Інтервал опитування в мс (пусто = Авто)</string>
+    <string name="desc_graph">Графік швидкості вітру</string>
+</resources>
