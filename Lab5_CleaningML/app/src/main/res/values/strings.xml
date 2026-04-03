@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Lab5_CleaningML</string>
+
+    <string name="title_main">Детектор прибирання</string>
+    <string name="subtitle_main">Покладіть телефон у кишеню та почніть рухатись</string>
+    <string name="label_detected_activity">Розпізнана активність:</string>
+    <string name="default_analysis">Аналізую рухи...</string>
+    <string name="label_confidence">Впевненість системи:</string>
+
+    <string name="activity_rest">Відпочинок</string>
+    <string name="activity_sweep">Підмітання</string>
+    <string name="activity_wipe">Протирання</string>
+    <string name="activity_vacuum">Пилососіння</string>
+    <string name="activity_trash">Винесення сміття</string>
+
+    <string-array name="activity_classes">
+        <item>@string/activity_rest</item>
+        <item>@string/activity_sweep</item>
+        <item>@string/activity_wipe</item>
+        <item>@string/activity_vacuum</item>
+        <item>@string/activity_trash</item>
+    </string-array>
+
+    <string name="nav_dashboard">Головна</string>
+    <string name="nav_testing">Симулятор</string>
+
+    <string name="title_testing">Панель симуляції</string>
+    <string name="subtitle_testing">Перевірка роботи алгоритму за допомогою віртуальних рухів</string>
+    <string name="label_sim_switch">Увімкнути віртуальні сенсори</string>
+    <string name="label_choose_activity">Оберіть активність для симуляції:</string>
+    <string name="label_live_data">Дані в реальному часі (Оновлюється 50 разів/сек):</string>
+
+    <string name="label_accelerometer">Акселерометр</string>
+    <string name="label_gyroscope">Гіроскоп</string>
+    <string name="axis_x">X</string>
+    <string name="axis_y">Y</string>
+    <string name="axis_z">Z</string>
+
+    <string name="default_zero_percent">0%</string>
+    <string name="default_zero_float">0.00</string>
+    <string name="percent_format">%1$d%%</string>
+</resources>
