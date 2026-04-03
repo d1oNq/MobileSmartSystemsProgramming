@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Lab7_ScooterBMS</string>
+
+    <string name="status_connected">Підключено до хмари</string>
+    <string name="status_disconnected">Немає зв\'язку з хмарою</string>
+
+    <string name="title_voltage">Напруга (V)</string>
+    <string name="title_current">Струм (A)</string>
+    <string name="title_temp">Температура (°C)</string>
+    <string name="default_value">--</string>
+
+    <string name="title_control">Керування</string>
+    <string name="label_cooling">Активне охолодження</string>
+    <string name="level_0">Вимкнено</string>
+    <string name="level_1">Рівень 1</string>
+    <string name="level_2">Рівень 2 (Макс)</string>
+
+    <string name="label_charge">Режим зарядки</string>
+    <string name="mode_1">Нормальна</string>
+    <string name="mode_2">Швидка</string>
+    <string name="mode_3">Повільна</string>
+
+    <string name="label_main_relay">Час зарядки</string>
+    <string name="switch_power">Увімкнути зарядку</string>
+
+    <string name="filter_5_min">5 Хв</string>
+    <string name="filter_1_hour">1 Год</string>
+    <string name="filter_24_hour">24 Год</string>
+
+    <string name="title_stats">Статистика температури</string>
+    <string name="stats_count">Записів:</string>
+    <string name="stats_avg">Середнє:</string>
+    <string name="stats_median">Медіана:</string>
+    <string name="stats_trend">Тренд:</string>
+
+    <string name="btn_settings">Налаштування правил</string>
+    <string name="title_settings">Автоматичний захист батареї</string>
+    <string name="hint_max_temp">Макс. Температура (°C)</string>
+    <string name="hint_min_volt">Мін. Напруга (V)</string>
+    <string name="hint_max_curr">Макс. Струм (A)</string>
+
+    <string name="nav_dashboard">Дашборд</string>
+    <string name="nav_control">Керування</string>
+    <string name="nav_settings">Налаштування</string>
+
+    <string name="title_battery_level">Рівень заряду</string>
+    <string name="title_range">Запас ходу</string>
+    <string name="toast_saved">Налаштування збережено!</string>
+    <string name="btn_save">Зберегти</string>
+
+    <string name="settings_subtitle">Система автоматично реагує на критичні показники</string>
+
+    <string name="settings_temp_title">Максимальна температура</string>
+    <string name="settings_temp_hint">Якщо температура перевищить цей поріг – вентилятор автоматично перейде на повну потужність</string>
+
+    <string name="settings_volt_title">Мінімальна напруга</string>
+    <string name="settings_volt_hint">При падінні нижче цього значення – зарядка перейде в повільний режим для захисту батареї</string>
+
+    <string name="settings_curr_title">Максимальний струм</string>
+    <string name="settings_curr_hint">При перевищенні впродовж 2 годин – зарядка переходить в повільний режим для зниження навантаження</string>
+
+    <string name="battery_status_format">%1$d%% (Здоров\'я: %2$d%%)</string>
+    <string name="range_format">Орієнтовний запас ходу: %1$.1f км</string>
+    <string name="stats_format_template">Кількість записів: %1$d\nСередня темп.: %2$.1f °C\nМедіана: %3$.1f °C\nТренд: %4$s</string>
+
+    <string name="btn_clear_db">Очистити історію</string>
+</resources>
